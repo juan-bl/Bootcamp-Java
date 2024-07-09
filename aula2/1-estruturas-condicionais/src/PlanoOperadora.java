@@ -22,7 +22,11 @@ public class PlanoOperadora {
 			}
 			case "B": {
 				System.out.println("100 minutos de ligação");
+                break;
 			}
+            default: {
+                System.out.println("PLANO INVALIDO");
+            }
 		}
 
     }
